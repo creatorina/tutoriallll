@@ -45,3 +45,7 @@ def handle_message(event):
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
+
+git commit -a -m "euVPgxXliNZadNBwabW+fNZW7OCLuz0TgbTfMH/2b3TQJF1WbzAth2FV29er+Sgmq5R9J8trRxsYLEG9fSXD7b3lvtDzw1OcnXeLfdSdWmGWlEjMtH3fO6x+9rzQsJ7ip78X+yNU3NQyxasOXrVkagdB04t89/1O/w1cDnyilFU="
+heroku create
+git push heroku master
